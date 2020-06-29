@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 //test
-
+//test2
 @Service
 public class CoursesHardcodedService {
     private static List<Course> courses = new ArrayList<>();
