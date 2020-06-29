@@ -19,10 +19,10 @@ public class DatabaseFunctions {
                         + "trustServerCertificate=false;"
                         + "loginTimeout=60;";
         String user = "sa";
-        String pass = "test";
+        String password = "test";
         Connection connection;
         try {
-            connection = DriverManager.getConnection(connectionUrl, user, pass);
+            connection = DriverManager.getConnection(connectionUrl, user, password);
         }
 
         // Handle any errors that may have occurred.
